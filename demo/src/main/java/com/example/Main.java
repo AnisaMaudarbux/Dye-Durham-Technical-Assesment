@@ -2,7 +2,7 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
-        nameSorter obj = new nameSorter();
+        NameSorter obj = new NameSorter();
 
         obj.printer();
     }

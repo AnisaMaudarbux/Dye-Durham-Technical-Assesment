@@ -4,9 +4,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class nameSorter {
-
-private String fullName;
+public class NameSorter {
 
 public static void sortLast(ArrayList<String> fullName) {
     //comparing 2 values
@@ -30,15 +28,15 @@ private static ArrayList<String> getStrings() {
     ArrayList<String> fullName = new ArrayList<String>();
     fullName.add("Janet Parsons");
     fullName.add("Vaugh Lewis");
-    fullName.add("Adonis Julius Archer");
-    fullName.add("Shelby Nathan Yoder");
+    fullName.add("Adonis Julius");
+    fullName.add("Shelby Nathan");
     fullName.add("Marin Alvarez");
     fullName.add("London Lindsey");
-    fullName.add("Beau Tristan Bentley");
+    fullName.add("Beau Tristan");
     fullName.add("Leo Gardner");
-    fullName.add("Hunter Uriah Mathew Clarke");
+    fullName.add("Hunter Uriah");
     fullName.add("Mikayla Lopez");
-    fullName.add("Frankie Conner Ritter");
+    fullName.add("Frankie Conner");
     sortLast(fullName);
     return fullName;
 }
